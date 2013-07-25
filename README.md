@@ -35,7 +35,7 @@ Choose one of the following options:
 ```
 $('.fs').fieldsetSelector();
 ```
-4. You can use multiple fiedsetSelectors on the same page by supplying a unique
+4. You can use multiple fieldsetSelectors on the same page by supplying a unique
 class name for each section
 
 ```
