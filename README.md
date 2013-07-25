@@ -13,35 +13,20 @@ Choose one of the following options:
 
 ```
 <form>
-
     <select name="options" class="fs">
-
         <option value="option-1">Option 1</option>
-
         <option value="option-2">Option 2</option>
-
     </select>
-
     <fieldset class="option-1">
-
         <p>Option 1 Fields</p>
-
         <label><input type="radio" name="fieldset1" value="0">Radio 1</label><br>
-
         <label><input type="radio" name="fieldset1" value="1">Radio 2</label>
-
     </fieldset>
-
     <fieldset class="option-2">
-
         <p>Option 2 Fields</p>
-
         <label>Text 1</label><br>
-
         <input type="text" name="fieldset2" value="">
-
     </fieldset>
-
 </form>
 
 ```
@@ -55,6 +40,5 @@ class name for each section
 
 ```
 $('#fs').fieldsetSelector();
-
 $('#fs2').fieldsetSelector({className : 'fs2-fields'});
 ```
